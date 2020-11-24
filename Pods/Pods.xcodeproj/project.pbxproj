@@ -1,0 +1,1075 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 741581A7361AF4537A921DAD19E3B1ED /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "OpenSSL-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		11D250F035F0982DFE0FEDB2ECC62B8C /* secp256k1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 965032922CA236494ACC3C3BFDFB21BB /* secp256k1.swift */; };
+		137E9B12B7F85C15F7349D81DDA64EC7 /* field_5x52_int128_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 90D25FA443925F328C4E25AE15AC58A1 /* field_5x52_int128_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		15A0F199193979A0F4C24514ED3F09DF /* scalar_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2857791AB56AA4AE602231FAD48D9903 /* scalar_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		16CDB8F03893689280F092C3F12791DE /* lax_der_privatekey_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 991C068124C59F7675961BED21B23628 /* lax_der_privatekey_parsing.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		203EAC70003BD2AE969785D21C095889 /* ecmult_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE787D052C79534D6FE0EAB0D573760 /* ecmult_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		21FC6270278525A0208687D2FBBB0666 /* basic-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AEBC830A26E2799CE278E887F689502 /* basic-config.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		2A7721DCCCEECE229033DB9257559A46 /* ecdsa_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 69216B67372C25AF59FCFA8C6158A4AF /* ecdsa_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		37C457FB9FE839C32EF4BA882EEFD4C9 /* libsecp256k1-config.h in Headers */ = {isa = PBXBuildFile; fileRef = 02105AF01BF063CB158409C45B1112E1 /* libsecp256k1-config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3ACE3D5FE8D376FF704301895ABC5EB6 /* field_5x52_asm_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BCE97030A47D43A1DEFD751E29596F /* field_5x52_asm_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E4B0D104B3D588C2BE5695B38BAE793 /* num_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD1F3F0726FDDD4114CF6C9B1CA259E /* num_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		3E799B37C6BC20578C6060B32D13DE0F /* num_gmp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E951006B9013CFCD6C0FEF32701B0C0 /* num_gmp.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4267E62741D0CFDFA111D5680F51F382 /* field_5x52.h in Headers */ = {isa = PBXBuildFile; fileRef = 934766384A384D4413193CCED5B050EE /* field_5x52.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		4FD0B28B7E7E754A259AF1FD8512FF5E /* scratch_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CAAB93C4FF1ABDB4F7436EABBCF92B0 /* scratch_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		53AB58EDE3D1CB04DA14D6C091B40474 /* ecmult_gen_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0AF91BE19C1A299158F233EE1565BB /* ecmult_gen_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5523A5ABC6E3884EA3785105A64EC2D4 /* ecmult_gen.h in Headers */ = {isa = PBXBuildFile; fileRef = 192427B43EBF609FFA35A101EE82472C /* ecmult_gen.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5678E8722975813D15982650C3AC1A13 /* lax_der_parsing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4898E402F1AB27CEC12265D837DF6475 /* lax_der_parsing.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		567F839887CD7F69E141F4CE51FC39D0 /* Pods-HqWalletSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FB4CDD1F93B4B51C5908189D8B083E8 /* Pods-HqWalletSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		572D56C08931F284645FE8EBD5DC7B69 /* group.h in Headers */ = {isa = PBXBuildFile; fileRef = 6875A029B2D469D7A54B046D2D036174 /* group.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5C32C6F85029D623DC00C94AAF14DF2A /* scalar_low.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E623DEDD80DA459784DCCFB3AC5B47B /* scalar_low.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		5D2872D3844A73D6A40B5323FD11CEB9 /* eckey.h in Headers */ = {isa = PBXBuildFile; fileRef = A3F9014573FA4B8A5760398D07A8C93A /* eckey.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		619E14C9538BD63D9DAB287A598C9A74 /* scalar_8x32_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 904A14004471B76DA4BDFF5C2312F4A2 /* scalar_8x32_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		62084C31C7D04B68FF7FB670BD3E68D6 /* scalar_low_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = FAEDE726CE3876805595EFBFAAA3443E /* scalar_low_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		662A3D2FB7DFE4F2E17E365308474BC2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		677E54443C763C89F687F87346808750 /* field_5x52_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 4897E8235E7C8CBC64308B500B2BE424 /* field_5x52_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		68F7D203750327002F398C0152A74F06 /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0D1A28733EF42A7CAB61843140F469 /* main_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		6C9FA4F32A2F936BD964A6FF1DF91068 /* ecmult.h in Headers */ = {isa = PBXBuildFile; fileRef = 012290D51A59B6777BDC429EAAC85006 /* ecmult.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		70679855482F759CB4F6E36374AFF5AB /* scalar_8x32.h in Headers */ = {isa = PBXBuildFile; fileRef = E01EB4E3A4D045E9A220D6447AC87860 /* scalar_8x32.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7103572417952B9885FC865050F6710B /* eckey_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 54EA2C55A9A2934B880DE865C3320E60 /* eckey_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		75561103BECF65F6C1C02B3018BDA467 /* hash_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = BAA6CEC7F628E17B97DA27938D3CE3BC /* hash_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		76B2309841C2DA59DCEB88912EBF680A /* num_gmp_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = E7AC45EDE0249FF3D575A51807126989 /* num_gmp_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7C690996053619B1EF1802AC6249FB9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7E85D5B5C7C663AF129335EB282013F4 /* scalar.h in Headers */ = {isa = PBXBuildFile; fileRef = 43006C9E2637EAC9AECCE2C7E78A1BB5 /* scalar.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8A9AD8CFA8F0A632BFB897D6AC6D1971 /* ecdsa.h in Headers */ = {isa = PBXBuildFile; fileRef = C40E9622000C57649A5C4CE2FA224D15 /* ecdsa.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8BAA227246DF3F9BBE10BA9F5F0853E8 /* secp256k1.h in Headers */ = {isa = PBXBuildFile; fileRef = FC63CCE9048048C158D3BD344DA1FAA0 /* secp256k1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E57956261BAC74C27BDAD903BB58681 /* scalar_4x64_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9831E076F7D7DCD5BA4C7CD7A432533C /* scalar_4x64_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		91B94DC0C91CC02C7A46E3032FD2AB54 /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 700E365956C4A95B631B32A0209F21A3 /* lax_der_privatekey_parsing.c */; };
+		A3EE9EEA74AEB3A2C840671BA9559EB3 /* util.h in Headers */ = {isa = PBXBuildFile; fileRef = 8201AFD219A1BFBDFB1EF92CD85D4333 /* util.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		A7C3789C23A94A710ABBEB9A070FAD20 /* secp256k1_recovery.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D2C45804C3046220A4759C77E831C3 /* secp256k1_recovery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A98B2E66E68CD4051BF4E85BD8486B23 /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CFF907CAC2D7656EFC578B98444176B /* secp256k1.c */; };
+		AA13BA37D1BA0B43FDC19850865E6599 /* scalar_4x64.h in Headers */ = {isa = PBXBuildFile; fileRef = F7DBE068A5DDDB85F08CC840E8392F04 /* scalar_4x64.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AB39D2BAB5F12D3D0C964C944F0AC6F2 /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 16C6BE0751C3FD578DF6B14DAC3359F5 /* main_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B1CA95BCB1F0A2FCB62EAB8D3AB4453E /* Pods-HqWalletSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA5D13FFD62BA28E6F0F0FF146C19BBD /* Pods-HqWalletSDK-dummy.m */; };
+		B25BB09EA7B8EBA82150F092CCAEB1EE /* scratch.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FC47971C5D8C68DAEAA0FD23CE01D52 /* scratch.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BDC1F25CFCD719E6DF373F09849B8061 /* secp256k1_ecdh.h in Headers */ = {isa = PBXBuildFile; fileRef = 64CE0A94B40C0802DA982A4763EF7731 /* secp256k1_ecdh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C70E0C9A46B419F829DB05DA2F0EC536 /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 88F888BA3CB8415ECCB5190BA62D3974 /* lax_der_parsing.c */; };
+		C9A6FB634C9125693A7881A358DDADAF /* num.h in Headers */ = {isa = PBXBuildFile; fileRef = 503D88B52B0E9D3CD038B69537770952 /* num.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CA19FFCCCEF9590E1C69DFC7726C3CAF /* ecmult_const_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 11B5C9D41D9C9837CC6DCE59F9008565 /* ecmult_const_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CD0AF051BC011CA36E7891C6CB0D9E79 /* field_10x26.h in Headers */ = {isa = PBXBuildFile; fileRef = 1258CA6CA5FBAADF118CF8138050D460 /* field_10x26.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CED70463E3760BDB73F956D8B33BC0FD /* field.h in Headers */ = {isa = PBXBuildFile; fileRef = 822BE7BAF9785CC8F7DD3518D6C45650 /* field.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DAD7D5E537A3EA3BEC74B4C5237F2E99 /* ecmult_const.h in Headers */ = {isa = PBXBuildFile; fileRef = 70E91C2BA63815B0565BF0284772F207 /* ecmult_const.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		E79DD158D37677CF9AB2DA193732CC30 /* group_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FBB3599E79F6818950A5CCF81B3F3BB /* group_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		EDE0703A9910F54964174103C5C1FBE4 /* secp256k1_swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82B00B2C50FE6D281974F6A2C58F9B81 /* secp256k1_swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F122DA37CEEE1E1353FE2D9332F8587B /* secp256k1_swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1455DF2B65829302F9505932694D0834 /* secp256k1_swift-dummy.m */; };
+		F61092BD1632F8E80CA293B600951B4C /* field_10x26_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 378E422D459FC397BA47EFCCB1DFAC15 /* field_10x26_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FD6CD2AA65C97C73965D8DC1C95473FE /* hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DABCDCED7183C7349D4CAD957B03A79 /* hash.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		FE2C4C5FB5838C6BAD13BE32F3287B81 /* field_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6AE8E2F1E00CEE995639C986FAECCA /* field_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21894C5BB06390EB667BE48047570342 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9ED5194E665042005069EF06C82A050;
+			remoteInfo = "OpenSSL-Universal";
+		};
+		D47D77519FB88550CE24F5EE7759F4C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 674FDFDEB40835621D833AF8EBA35016;
+			remoteInfo = secp256k1_swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012290D51A59B6777BDC429EAAC85006 /* ecmult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult.h; path = Classes/secp256k1/src/ecmult.h; sourceTree = "<group>"; };
+		01D0B50CB74DA5FFC695A1CDDF445942 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = ios/include/openssl/buffer.h; sourceTree = "<group>"; };
+		02105AF01BF063CB158409C45B1112E1 /* libsecp256k1-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "libsecp256k1-config.h"; path = "Classes/libsecp256k1-config.h"; sourceTree = "<group>"; };
+		05552808F39C2EDFB3F7CC338E08B435 /* conf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf.h; path = ios/include/openssl/conf.h; sourceTree = "<group>"; };
+		095F043049DADA665665ADF57D2403CA /* opensslv.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslv.h; path = ios/include/openssl/opensslv.h; sourceTree = "<group>"; };
+		0B033AF97B667B249F8B6B411DC57254 /* comp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = comp.h; path = ios/include/openssl/comp.h; sourceTree = "<group>"; };
+		0C22750C938C63DFD6E61A18FDEE9BFD /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = ios/lib/libcrypto.a; sourceTree = "<group>"; };
+		0CEE4B9A173309E31554FC80553A7AC5 /* dtls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dtls1.h; path = ios/include/openssl/dtls1.h; sourceTree = "<group>"; };
+		0CFF907CAC2D7656EFC578B98444176B /* secp256k1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = secp256k1.c; path = Classes/secp256k1/src/secp256k1.c; sourceTree = "<group>"; };
+		0E7C263711D1C52C92B1511A8E70F75F /* des.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des.h; path = ios/include/openssl/des.h; sourceTree = "<group>"; };
+		11B5C9D41D9C9837CC6DCE59F9008565 /* ecmult_const_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_const_impl.h; path = Classes/secp256k1/src/ecmult_const_impl.h; sourceTree = "<group>"; };
+		1258CA6CA5FBAADF118CF8138050D460 /* field_10x26.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_10x26.h; path = Classes/secp256k1/src/field_10x26.h; sourceTree = "<group>"; };
+		12A33C0AF593CEC077CFE0F4318592E8 /* Pods-HqWalletSDK-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HqWalletSDK-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1455DF2B65829302F9505932694D0834 /* secp256k1_swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "secp256k1_swift-dummy.m"; sourceTree = "<group>"; };
+		1470C18D46DF638AB205861180665E16 /* OpenSSL-Universal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.release.xcconfig"; sourceTree = "<group>"; };
+		15ADA4F8370F02864646FD5D90285779 /* ocsp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ocsp.h; path = ios/include/openssl/ocsp.h; sourceTree = "<group>"; };
+		16C6BE0751C3FD578DF6B14DAC3359F5 /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = main_impl.h; path = Classes/secp256k1/src/modules/ecdh/main_impl.h; sourceTree = "<group>"; };
+		192427B43EBF609FFA35A101EE82472C /* ecmult_gen.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_gen.h; path = Classes/secp256k1/src/ecmult_gen.h; sourceTree = "<group>"; };
+		1BB8D451D853571517BCE3CD391DA1DA /* e_os2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = e_os2.h; path = ios/include/openssl/e_os2.h; sourceTree = "<group>"; };
+		22D13AFDF8C79E266836F5E3ACD8D920 /* bn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bn.h; path = ios/include/openssl/bn.h; sourceTree = "<group>"; };
+		249E56E600FA76A59B26478BDCFB917C /* secp256k1_swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = secp256k1_swift.release.xcconfig; sourceTree = "<group>"; };
+		24E9EB9832A3FD7C4EEC48F4F56744B2 /* camellia.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = camellia.h; path = ios/include/openssl/camellia.h; sourceTree = "<group>"; };
+		266F4E62AD4268B05862E7846425078F /* dso.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dso.h; path = ios/include/openssl/dso.h; sourceTree = "<group>"; };
+		27418DD40F4AB03C1D3BF105F24715A9 /* opensslconf-armv7s.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-armv7s.h"; path = "ios/include/openssl/opensslconf-armv7s.h"; sourceTree = "<group>"; };
+		2857791AB56AA4AE602231FAD48D9903 /* scalar_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_impl.h; path = Classes/secp256k1/src/scalar_impl.h; sourceTree = "<group>"; };
+		2AEBC830A26E2799CE278E887F689502 /* basic-config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "basic-config.h"; path = "Classes/secp256k1/src/basic-config.h"; sourceTree = "<group>"; };
+		2C0D1A28733EF42A7CAB61843140F469 /* main_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = main_impl.h; path = Classes/secp256k1/src/modules/recovery/main_impl.h; sourceTree = "<group>"; };
+		2DE787D052C79534D6FE0EAB0D573760 /* ecmult_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_impl.h; path = Classes/secp256k1/src/ecmult_impl.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32A9C1DD1C4409924414C9D891792908 /* obj_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = obj_mac.h; path = ios/include/openssl/obj_mac.h; sourceTree = "<group>"; };
+		3376D1509231550BB336FFBE7F23B48A /* opensslconf-arm64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-arm64.h"; path = "ios/include/openssl/opensslconf-arm64.h"; sourceTree = "<group>"; };
+		373C0EB9BE12B687F6EDDE15E3BE78B6 /* bio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = bio.h; path = ios/include/openssl/bio.h; sourceTree = "<group>"; };
+		378E422D459FC397BA47EFCCB1DFAC15 /* field_10x26_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_10x26_impl.h; path = Classes/secp256k1/src/field_10x26_impl.h; sourceTree = "<group>"; };
+		381DAB0A195416FF08EFFE21D3587617 /* ripemd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ripemd.h; path = ios/include/openssl/ripemd.h; sourceTree = "<group>"; };
+		3A2013300F3BC055EE7A66C474A32EDD /* cms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cms.h; path = ios/include/openssl/cms.h; sourceTree = "<group>"; };
+		3E623DEDD80DA459784DCCFB3AC5B47B /* scalar_low.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_low.h; path = Classes/secp256k1/src/scalar_low.h; sourceTree = "<group>"; };
+		3E951006B9013CFCD6C0FEF32701B0C0 /* num_gmp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_gmp.h; path = Classes/secp256k1/src/num_gmp.h; sourceTree = "<group>"; };
+		401D889F58F775491632F5E2D4696B08 /* Pods-HqWalletSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HqWalletSDK.release.xcconfig"; sourceTree = "<group>"; };
+		40BCD77FB9799F58D9F52162CB8F21BC /* asn1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1.h; path = ios/include/openssl/asn1.h; sourceTree = "<group>"; };
+		43006C9E2637EAC9AECCE2C7E78A1BB5 /* scalar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar.h; path = Classes/secp256k1/src/scalar.h; sourceTree = "<group>"; };
+		437E8E571B18E6FA2534FF80B30996A0 /* seed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = seed.h; path = ios/include/openssl/seed.h; sourceTree = "<group>"; };
+		4385CB6173550EB8529F069009F001A9 /* whrlpool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = whrlpool.h; path = ios/include/openssl/whrlpool.h; sourceTree = "<group>"; };
+		44CD4D07C9791EF9C36C74D28272FB1B /* ossl_typ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ossl_typ.h; path = ios/include/openssl/ossl_typ.h; sourceTree = "<group>"; };
+		451F17D58DF6BF17E669DA41D4F0DEF2 /* dh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dh.h; path = ios/include/openssl/dh.h; sourceTree = "<group>"; };
+		45EC42E6FAA118682AAA1BFCE8F055BE /* safestack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = safestack.h; path = ios/include/openssl/safestack.h; sourceTree = "<group>"; };
+		46E59548033D67A86F8CBCE694C4E2A0 /* pkcs12.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs12.h; path = ios/include/openssl/pkcs12.h; sourceTree = "<group>"; };
+		47ED726A2F283CA2BA0A947D65B4AB37 /* cmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmac.h; path = ios/include/openssl/cmac.h; sourceTree = "<group>"; };
+		4897E8235E7C8CBC64308B500B2BE424 /* field_5x52_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_impl.h; path = Classes/secp256k1/src/field_5x52_impl.h; sourceTree = "<group>"; };
+		4898E402F1AB27CEC12265D837DF6475 /* lax_der_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_parsing.h; path = Classes/secp256k1/contrib/lax_der_parsing.h; sourceTree = "<group>"; };
+		4A4D0D8D16755DC5527972861EDBC691 /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = ios/include/openssl/aes.h; sourceTree = "<group>"; };
+		4D469D588390E7B257598228FA040ABC /* err.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = err.h; path = ios/include/openssl/err.h; sourceTree = "<group>"; };
+		4DCDE14BE9EBBC9C4841DEC7221315DD /* ssl2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl2.h; path = ios/include/openssl/ssl2.h; sourceTree = "<group>"; };
+		503D88B52B0E9D3CD038B69537770952 /* num.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num.h; path = Classes/secp256k1/src/num.h; sourceTree = "<group>"; };
+		5110DD0014B3F9594E0FEA438F8ACD24 /* rsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rsa.h; path = ios/include/openssl/rsa.h; sourceTree = "<group>"; };
+		54EA2C55A9A2934B880DE865C3320E60 /* eckey_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eckey_impl.h; path = Classes/secp256k1/src/eckey_impl.h; sourceTree = "<group>"; };
+		56629F0263AC7D02D093AE8B0555835A /* objects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = objects.h; path = ios/include/openssl/objects.h; sourceTree = "<group>"; };
+		5D1524FDF2911AAA1724F0C8C5380F1A /* dsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = dsa.h; path = ios/include/openssl/dsa.h; sourceTree = "<group>"; };
+		5FC2546458A17B7463EF32F37795003A /* ui_compat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui_compat.h; path = ios/include/openssl/ui_compat.h; sourceTree = "<group>"; };
+		600A2BB9883C575FAF197312523DCDA0 /* ebcdic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ebcdic.h; path = ios/include/openssl/ebcdic.h; sourceTree = "<group>"; };
+		64CE0A94B40C0802DA982A4763EF7731 /* secp256k1_ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_ecdh.h; path = Classes/secp256k1/include/secp256k1_ecdh.h; sourceTree = "<group>"; };
+		6875A029B2D469D7A54B046D2D036174 /* group.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = group.h; path = Classes/secp256k1/src/group.h; sourceTree = "<group>"; };
+		69216B67372C25AF59FCFA8C6158A4AF /* ecdsa_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa_impl.h; path = Classes/secp256k1/src/ecdsa_impl.h; sourceTree = "<group>"; };
+		694D470F14B924A44A613346F6AED25A /* modes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = modes.h; path = ios/include/openssl/modes.h; sourceTree = "<group>"; };
+		6C6AE8E2F1E00CEE995639C986FAECCA /* field_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_impl.h; path = Classes/secp256k1/src/field_impl.h; sourceTree = "<group>"; };
+		6DABCDCED7183C7349D4CAD957B03A79 /* hash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash.h; path = Classes/secp256k1/src/hash.h; sourceTree = "<group>"; };
+		6F3F05BB104B311595E39E8A39E16218 /* krb5_asn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = krb5_asn.h; path = ios/include/openssl/krb5_asn.h; sourceTree = "<group>"; };
+		700E365956C4A95B631B32A0209F21A3 /* lax_der_privatekey_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_privatekey_parsing.c; path = Classes/secp256k1/contrib/lax_der_privatekey_parsing.c; sourceTree = "<group>"; };
+		701246A71A9C5D9858553809EC349FE0 /* secp256k1_swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_swift-prefix.pch"; sourceTree = "<group>"; };
+		70E91C2BA63815B0565BF0284772F207 /* ecmult_const.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_const.h; path = Classes/secp256k1/src/ecmult_const.h; sourceTree = "<group>"; };
+		7542A82374B2592AA8D1842088FC37C1 /* shim.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = shim.h; path = ios/include/openssl/shim.h; sourceTree = "<group>"; };
+		7672D193E932CF31039B08932B1CC5E4 /* md4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md4.h; path = ios/include/openssl/md4.h; sourceTree = "<group>"; };
+		78AD3D2F0B18A661080BB3069C313C8E /* secp256k1_swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = secp256k1_swift.modulemap; sourceTree = "<group>"; };
+		79823B9896DDB78B845E6547C8EE2A93 /* opensslconf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = opensslconf.h; path = ios/include/openssl/opensslconf.h; sourceTree = "<group>"; };
+		7EF855FEF28966329345783B5C5C3B01 /* md5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = md5.h; path = ios/include/openssl/md5.h; sourceTree = "<group>"; };
+		7FC47971C5D8C68DAEAA0FD23CE01D52 /* scratch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scratch.h; path = Classes/secp256k1/src/scratch.h; sourceTree = "<group>"; };
+		8201AFD219A1BFBDFB1EF92CD85D4333 /* util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = util.h; path = Classes/secp256k1/src/util.h; sourceTree = "<group>"; };
+		822BE7BAF9785CC8F7DD3518D6C45650 /* field.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field.h; path = Classes/secp256k1/src/field.h; sourceTree = "<group>"; };
+		82B00B2C50FE6D281974F6A2C58F9B81 /* secp256k1_swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "secp256k1_swift-umbrella.h"; sourceTree = "<group>"; };
+		835E217DE6D2D4CD5AE56F72136A84F5 /* x509.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509.h; path = ios/include/openssl/x509.h; sourceTree = "<group>"; };
+		849C2F6BFF31EC55B6947F63F3B23C89 /* ssl23.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl23.h; path = ios/include/openssl/ssl23.h; sourceTree = "<group>"; };
+		859ADEFB111233D415B1C421915A7BDA /* Pods-HqWalletSDK-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HqWalletSDK-acknowledgements.plist"; sourceTree = "<group>"; };
+		8648313CD2BF75DDCCFC900D056003CD /* conf_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = conf_api.h; path = ios/include/openssl/conf_api.h; sourceTree = "<group>"; };
+		86D9FC5EA7A2EBE586728F8F6B373C99 /* ssl3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl3.h; path = ios/include/openssl/ssl3.h; sourceTree = "<group>"; };
+		88F888BA3CB8415ECCB5190BA62D3974 /* lax_der_parsing.c */ = {isa = PBXFileReference; includeInIndex = 1; name = lax_der_parsing.c; path = Classes/secp256k1/contrib/lax_der_parsing.c; sourceTree = "<group>"; };
+		8F3BDF04CAAC98BF5F8691CD5FE99329 /* pqueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pqueue.h; path = ios/include/openssl/pqueue.h; sourceTree = "<group>"; };
+		8FB4CDD1F93B4B51C5908189D8B083E8 /* Pods-HqWalletSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HqWalletSDK-umbrella.h"; sourceTree = "<group>"; };
+		904A14004471B76DA4BDFF5C2312F4A2 /* scalar_8x32_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_8x32_impl.h; path = Classes/secp256k1/src/scalar_8x32_impl.h; sourceTree = "<group>"; };
+		90D25FA443925F328C4E25AE15AC58A1 /* field_5x52_int128_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_int128_impl.h; path = Classes/secp256k1/src/field_5x52_int128_impl.h; sourceTree = "<group>"; };
+		911F2C5FBEB403407001B3562327A323 /* ts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ts.h; path = ios/include/openssl/ts.h; sourceTree = "<group>"; };
+		928A0B28A224DE3561EA9FBB522D04B0 /* secp256k1_swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = secp256k1_swift.debug.xcconfig; sourceTree = "<group>"; };
+		934766384A384D4413193CCED5B050EE /* field_5x52.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52.h; path = Classes/secp256k1/src/field_5x52.h; sourceTree = "<group>"; };
+		965032922CA236494ACC3C3BFDFB21BB /* secp256k1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = secp256k1.swift; path = Classes/secp256k1.swift; sourceTree = "<group>"; };
+		96841CE7913F294FF1A4ED14992FFD48 /* asn1_mac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1_mac.h; path = ios/include/openssl/asn1_mac.h; sourceTree = "<group>"; };
+		9821B9504CF05C83079FFC3F1AD86BCE /* Pods_HqWalletSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HqWalletSDK.framework; path = "Pods-HqWalletSDK.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9831E076F7D7DCD5BA4C7CD7A432533C /* scalar_4x64_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_4x64_impl.h; path = Classes/secp256k1/src/scalar_4x64_impl.h; sourceTree = "<group>"; };
+		991C068124C59F7675961BED21B23628 /* lax_der_privatekey_parsing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lax_der_privatekey_parsing.h; path = Classes/secp256k1/contrib/lax_der_privatekey_parsing.h; sourceTree = "<group>"; };
+		9B223F7FE1259C744907819C40E0B05B /* sha.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sha.h; path = ios/include/openssl/sha.h; sourceTree = "<group>"; };
+		9CAAB93C4FF1ABDB4F7436EABBCF92B0 /* scratch_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scratch_impl.h; path = Classes/secp256k1/src/scratch_impl.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E0AF91BE19C1A299158F233EE1565BB /* ecmult_gen_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecmult_gen_impl.h; path = Classes/secp256k1/src/ecmult_gen_impl.h; sourceTree = "<group>"; };
+		9E0C28862AD0B1D242AAE42361FB5933 /* secp256k1_swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "secp256k1_swift-Info.plist"; sourceTree = "<group>"; };
+		9ED07F6C469662B54CF645EEC246B8B0 /* srp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srp.h; path = ios/include/openssl/srp.h; sourceTree = "<group>"; };
+		9FBB3599E79F6818950A5CCF81B3F3BB /* group_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = group_impl.h; path = Classes/secp256k1/src/group_impl.h; sourceTree = "<group>"; };
+		A14608E3C5B7617E3775107CD64F67CA /* x509_vfy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509_vfy.h; path = ios/include/openssl/x509_vfy.h; sourceTree = "<group>"; };
+		A2A090129A79C81C1D581A54F61729EF /* blowfish.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = blowfish.h; path = ios/include/openssl/blowfish.h; sourceTree = "<group>"; };
+		A327B82DC5D5A82A07FD56CF698530FB /* secp256k1_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = secp256k1_swift.framework; path = secp256k1_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F9014573FA4B8A5760398D07A8C93A /* eckey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = eckey.h; path = Classes/secp256k1/src/eckey.h; sourceTree = "<group>"; };
+		A745FD9E9B0BF8BD40AF16629E9F81FB /* lhash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = lhash.h; path = ios/include/openssl/lhash.h; sourceTree = "<group>"; };
+		A8E5D4A013923A9C5052AAA832B73FE5 /* des_old.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = des_old.h; path = ios/include/openssl/des_old.h; sourceTree = "<group>"; };
+		A9CBD1A5051006DA5B1C37FC61BEE1EE /* pkcs7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pkcs7.h; path = ios/include/openssl/pkcs7.h; sourceTree = "<group>"; };
+		AA551747BD7A98E5E7416521C48BBC1D /* Pods-HqWalletSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HqWalletSDK.modulemap"; sourceTree = "<group>"; };
+		B0FDA86096981AF34BAAD540A2E0C827 /* rc4.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc4.h; path = ios/include/openssl/rc4.h; sourceTree = "<group>"; };
+		B286AC58A47C321279C67BDA21EAE2E0 /* kssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = kssl.h; path = ios/include/openssl/kssl.h; sourceTree = "<group>"; };
+		B8CDF66C1554B7FAAA8599F3BE2D0619 /* idea.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = idea.h; path = ios/include/openssl/idea.h; sourceTree = "<group>"; };
+		BAA6CEC7F628E17B97DA27938D3CE3BC /* hash_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hash_impl.h; path = Classes/secp256k1/src/hash_impl.h; sourceTree = "<group>"; };
+		BBD1F3F0726FDDD4114CF6C9B1CA259E /* num_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_impl.h; path = Classes/secp256k1/src/num_impl.h; sourceTree = "<group>"; };
+		BC7145509CEC6FC1B059BBC1EB2E2180 /* evp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = evp.h; path = ios/include/openssl/evp.h; sourceTree = "<group>"; };
+		BDFFEB9EA3ADE934AB7818B02F519577 /* tls1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tls1.h; path = ios/include/openssl/tls1.h; sourceTree = "<group>"; };
+		C21D8CEBAA463C50E5F6622470EA5C3B /* ui.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ui.h; path = ios/include/openssl/ui.h; sourceTree = "<group>"; };
+		C28BECBA7AE1CCFD83CE1B9976917213 /* Pods-HqWalletSDK-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HqWalletSDK-frameworks.sh"; sourceTree = "<group>"; };
+		C40E9622000C57649A5C4CE2FA224D15 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = Classes/secp256k1/src/ecdsa.h; sourceTree = "<group>"; };
+		C9EB94FD697A96A1AED96CFA742454FD /* pem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem.h; path = ios/include/openssl/pem.h; sourceTree = "<group>"; };
+		CA5D13FFD62BA28E6F0F0FF146C19BBD /* Pods-HqWalletSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HqWalletSDK-dummy.m"; sourceTree = "<group>"; };
+		CC4D624AF8A99BC9744FA2435C5D4070 /* opensslconf-armv7.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-armv7.h"; path = "ios/include/openssl/opensslconf-armv7.h"; sourceTree = "<group>"; };
+		CD3980F276E95498A35E8D3D7C10425C /* txt_db.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = txt_db.h; path = ios/include/openssl/txt_db.h; sourceTree = "<group>"; };
+		D010D2919942676840686198D8396F08 /* ec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ec.h; path = ios/include/openssl/ec.h; sourceTree = "<group>"; };
+		D5194A8258A07E2846F0E5E5C77A28C9 /* ssl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ssl.h; path = ios/include/openssl/ssl.h; sourceTree = "<group>"; };
+		D90D924885FB96085BB3FF4765129EE5 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = ios/lib/libssl.a; sourceTree = "<group>"; };
+		D91C9BF6F7E187052E763FC7BD04D5E3 /* srtp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = srtp.h; path = ios/include/openssl/srtp.h; sourceTree = "<group>"; };
+		D9BCE97030A47D43A1DEFD751E29596F /* field_5x52_asm_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = field_5x52_asm_impl.h; path = Classes/secp256k1/src/field_5x52_asm_impl.h; sourceTree = "<group>"; };
+		DC8E3AD287B4EB05C5BF65B7D4ABFDDD /* pem2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pem2.h; path = ios/include/openssl/pem2.h; sourceTree = "<group>"; };
+		DCE67F37F4536ED8FE2378B5C7E782E5 /* x509v3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = x509v3.h; path = ios/include/openssl/x509v3.h; sourceTree = "<group>"; };
+		DD8AF33D3B3F014058558F7D467F2438 /* ecdh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdh.h; path = ios/include/openssl/ecdh.h; sourceTree = "<group>"; };
+		DE160936F7D36E4AB8C9DFF478FFE05F /* stack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = stack.h; path = ios/include/openssl/stack.h; sourceTree = "<group>"; };
+		DE1FA4A04C7A3584EC07B56276F5692F /* asn1t.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = asn1t.h; path = ios/include/openssl/asn1t.h; sourceTree = "<group>"; };
+		DEA315B4048A9B49558408DD6721E6B6 /* OpenSSL-Universal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "OpenSSL-Universal.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBF31DB6467E54842DE4E7D977036EE /* rc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rc2.h; path = ios/include/openssl/rc2.h; sourceTree = "<group>"; };
+		DFF0785FABBBD0D7F5467175AF27F24D /* opensslconf-x86_64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-x86_64.h"; path = "ios/include/openssl/opensslconf-x86_64.h"; sourceTree = "<group>"; };
+		E01EB4E3A4D045E9A220D6447AC87860 /* scalar_8x32.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_8x32.h; path = Classes/secp256k1/src/scalar_8x32.h; sourceTree = "<group>"; };
+		E0D2C45804C3046220A4759C77E831C3 /* secp256k1_recovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1_recovery.h; path = Classes/secp256k1/include/secp256k1_recovery.h; sourceTree = "<group>"; };
+		E32837AE40CA43080904823F99F34F15 /* hmac.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = hmac.h; path = ios/include/openssl/hmac.h; sourceTree = "<group>"; };
+		E40DB8521081EA1131862116BA72239C /* opensslconf-i386.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "opensslconf-i386.h"; path = "ios/include/openssl/opensslconf-i386.h"; sourceTree = "<group>"; };
+		E5717DB281839E4DE5882DA40A13683B /* rand.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = rand.h; path = ios/include/openssl/rand.h; sourceTree = "<group>"; };
+		E7662C04610385143AD3D7393CF8C250 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = ios/include/openssl/crypto.h; sourceTree = "<group>"; };
+		E7AC45EDE0249FF3D575A51807126989 /* num_gmp_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = num_gmp_impl.h; path = Classes/secp256k1/src/num_gmp_impl.h; sourceTree = "<group>"; };
+		E9E5B32F11FFB2CC9F096C06D640A2CD /* Pods-HqWalletSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HqWalletSDK-Info.plist"; sourceTree = "<group>"; };
+		EB12CAFDE8837CAAF6EE802519154957 /* mdc2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mdc2.h; path = ios/include/openssl/mdc2.h; sourceTree = "<group>"; };
+		F2710E19CFFFDB9ABE06166F0075AA96 /* Pods-HqWalletSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HqWalletSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F6B0E1F029708C05E79334EDE1642D98 /* ecdsa.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ecdsa.h; path = ios/include/openssl/ecdsa.h; sourceTree = "<group>"; };
+		F7B3C205B8C3BB9378C8D3BD667B0380 /* symhacks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = symhacks.h; path = ios/include/openssl/symhacks.h; sourceTree = "<group>"; };
+		F7DBE068A5DDDB85F08CC840E8392F04 /* scalar_4x64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_4x64.h; path = Classes/secp256k1/src/scalar_4x64.h; sourceTree = "<group>"; };
+		FA21D467A5070CDCB92C9C0A3860630B /* cast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cast.h; path = ios/include/openssl/cast.h; sourceTree = "<group>"; };
+		FAEDE726CE3876805595EFBFAAA3443E /* scalar_low_impl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scalar_low_impl.h; path = Classes/secp256k1/src/scalar_low_impl.h; sourceTree = "<group>"; };
+		FB775348FA9B01D83059C5E91F096D47 /* engine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = engine.h; path = ios/include/openssl/engine.h; sourceTree = "<group>"; };
+		FC63CCE9048048C158D3BD344DA1FAA0 /* secp256k1.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = secp256k1.h; path = Classes/secp256k1/include/secp256k1.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F38D65ED7CBF2F2B912FFAACA28DA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662A3D2FB7DFE4F2E17E365308474BC2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA9444CCEBDE0F414A36AA720AA7D519 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C690996053619B1EF1802AC6249FB9C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5453D0022FEC3EC093D27B73A663A297 /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				6C7FB54F07DEFB42A88C6BCF4CA1BCFB /* Static */,
+				AF94EC1870B56A8CF0E14A3B39EC08E8 /* Support Files */,
+			);
+			name = "OpenSSL-Universal";
+			path = "OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		63C9BCC1AB9B7A7BE80C72DE2B36A9E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C22750C938C63DFD6E61A18FDEE9BFD /* libcrypto.a */,
+				D90D924885FB96085BB3FF4765129EE5 /* libssl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C7FB54F07DEFB42A88C6BCF4CA1BCFB /* Static */ = {
+			isa = PBXGroup;
+			children = (
+				4A4D0D8D16755DC5527972861EDBC691 /* aes.h */,
+				40BCD77FB9799F58D9F52162CB8F21BC /* asn1.h */,
+				96841CE7913F294FF1A4ED14992FFD48 /* asn1_mac.h */,
+				DE1FA4A04C7A3584EC07B56276F5692F /* asn1t.h */,
+				373C0EB9BE12B687F6EDDE15E3BE78B6 /* bio.h */,
+				A2A090129A79C81C1D581A54F61729EF /* blowfish.h */,
+				22D13AFDF8C79E266836F5E3ACD8D920 /* bn.h */,
+				01D0B50CB74DA5FFC695A1CDDF445942 /* buffer.h */,
+				24E9EB9832A3FD7C4EEC48F4F56744B2 /* camellia.h */,
+				FA21D467A5070CDCB92C9C0A3860630B /* cast.h */,
+				47ED726A2F283CA2BA0A947D65B4AB37 /* cmac.h */,
+				3A2013300F3BC055EE7A66C474A32EDD /* cms.h */,
+				0B033AF97B667B249F8B6B411DC57254 /* comp.h */,
+				05552808F39C2EDFB3F7CC338E08B435 /* conf.h */,
+				8648313CD2BF75DDCCFC900D056003CD /* conf_api.h */,
+				E7662C04610385143AD3D7393CF8C250 /* crypto.h */,
+				0E7C263711D1C52C92B1511A8E70F75F /* des.h */,
+				A8E5D4A013923A9C5052AAA832B73FE5 /* des_old.h */,
+				451F17D58DF6BF17E669DA41D4F0DEF2 /* dh.h */,
+				5D1524FDF2911AAA1724F0C8C5380F1A /* dsa.h */,
+				266F4E62AD4268B05862E7846425078F /* dso.h */,
+				0CEE4B9A173309E31554FC80553A7AC5 /* dtls1.h */,
+				1BB8D451D853571517BCE3CD391DA1DA /* e_os2.h */,
+				600A2BB9883C575FAF197312523DCDA0 /* ebcdic.h */,
+				D010D2919942676840686198D8396F08 /* ec.h */,
+				DD8AF33D3B3F014058558F7D467F2438 /* ecdh.h */,
+				F6B0E1F029708C05E79334EDE1642D98 /* ecdsa.h */,
+				FB775348FA9B01D83059C5E91F096D47 /* engine.h */,
+				4D469D588390E7B257598228FA040ABC /* err.h */,
+				BC7145509CEC6FC1B059BBC1EB2E2180 /* evp.h */,
+				E32837AE40CA43080904823F99F34F15 /* hmac.h */,
+				B8CDF66C1554B7FAAA8599F3BE2D0619 /* idea.h */,
+				6F3F05BB104B311595E39E8A39E16218 /* krb5_asn.h */,
+				B286AC58A47C321279C67BDA21EAE2E0 /* kssl.h */,
+				A745FD9E9B0BF8BD40AF16629E9F81FB /* lhash.h */,
+				7672D193E932CF31039B08932B1CC5E4 /* md4.h */,
+				7EF855FEF28966329345783B5C5C3B01 /* md5.h */,
+				EB12CAFDE8837CAAF6EE802519154957 /* mdc2.h */,
+				694D470F14B924A44A613346F6AED25A /* modes.h */,
+				32A9C1DD1C4409924414C9D891792908 /* obj_mac.h */,
+				56629F0263AC7D02D093AE8B0555835A /* objects.h */,
+				15ADA4F8370F02864646FD5D90285779 /* ocsp.h */,
+				79823B9896DDB78B845E6547C8EE2A93 /* opensslconf.h */,
+				3376D1509231550BB336FFBE7F23B48A /* opensslconf-arm64.h */,
+				CC4D624AF8A99BC9744FA2435C5D4070 /* opensslconf-armv7.h */,
+				27418DD40F4AB03C1D3BF105F24715A9 /* opensslconf-armv7s.h */,
+				E40DB8521081EA1131862116BA72239C /* opensslconf-i386.h */,
+				DFF0785FABBBD0D7F5467175AF27F24D /* opensslconf-x86_64.h */,
+				095F043049DADA665665ADF57D2403CA /* opensslv.h */,
+				44CD4D07C9791EF9C36C74D28272FB1B /* ossl_typ.h */,
+				C9EB94FD697A96A1AED96CFA742454FD /* pem.h */,
+				DC8E3AD287B4EB05C5BF65B7D4ABFDDD /* pem2.h */,
+				46E59548033D67A86F8CBCE694C4E2A0 /* pkcs12.h */,
+				A9CBD1A5051006DA5B1C37FC61BEE1EE /* pkcs7.h */,
+				8F3BDF04CAAC98BF5F8691CD5FE99329 /* pqueue.h */,
+				E5717DB281839E4DE5882DA40A13683B /* rand.h */,
+				DEBF31DB6467E54842DE4E7D977036EE /* rc2.h */,
+				B0FDA86096981AF34BAAD540A2E0C827 /* rc4.h */,
+				381DAB0A195416FF08EFFE21D3587617 /* ripemd.h */,
+				5110DD0014B3F9594E0FEA438F8ACD24 /* rsa.h */,
+				45EC42E6FAA118682AAA1BFCE8F055BE /* safestack.h */,
+				437E8E571B18E6FA2534FF80B30996A0 /* seed.h */,
+				9B223F7FE1259C744907819C40E0B05B /* sha.h */,
+				7542A82374B2592AA8D1842088FC37C1 /* shim.h */,
+				9ED07F6C469662B54CF645EEC246B8B0 /* srp.h */,
+				D91C9BF6F7E187052E763FC7BD04D5E3 /* srtp.h */,
+				D5194A8258A07E2846F0E5E5C77A28C9 /* ssl.h */,
+				4DCDE14BE9EBBC9C4841DEC7221315DD /* ssl2.h */,
+				849C2F6BFF31EC55B6947F63F3B23C89 /* ssl23.h */,
+				86D9FC5EA7A2EBE586728F8F6B373C99 /* ssl3.h */,
+				DE160936F7D36E4AB8C9DFF478FFE05F /* stack.h */,
+				F7B3C205B8C3BB9378C8D3BD667B0380 /* symhacks.h */,
+				BDFFEB9EA3ADE934AB7818B02F519577 /* tls1.h */,
+				911F2C5FBEB403407001B3562327A323 /* ts.h */,
+				CD3980F276E95498A35E8D3D7C10425C /* txt_db.h */,
+				C21D8CEBAA463C50E5F6622470EA5C3B /* ui.h */,
+				5FC2546458A17B7463EF32F37795003A /* ui_compat.h */,
+				4385CB6173550EB8529F069009F001A9 /* whrlpool.h */,
+				835E217DE6D2D4CD5AE56F72136A84F5 /* x509.h */,
+				A14608E3C5B7617E3775107CD64F67CA /* x509_vfy.h */,
+				DCE67F37F4536ED8FE2378B5C7E782E5 /* x509v3.h */,
+				63C9BCC1AB9B7A7BE80C72DE2B36A9E8 /* Frameworks */,
+			);
+			name = Static;
+			sourceTree = "<group>";
+		};
+		7449A62C53B317BC919B0CBECC4C1E3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5453D0022FEC3EC093D27B73A663A297 /* OpenSSL-Universal */,
+				E08940CDE582A4709D44BA501103373A /* secp256k1_swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD06B6C274D9FF8B67F062CD62444EB4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				78AD3D2F0B18A661080BB3069C313C8E /* secp256k1_swift.modulemap */,
+				1455DF2B65829302F9505932694D0834 /* secp256k1_swift-dummy.m */,
+				9E0C28862AD0B1D242AAE42361FB5933 /* secp256k1_swift-Info.plist */,
+				701246A71A9C5D9858553809EC349FE0 /* secp256k1_swift-prefix.pch */,
+				82B00B2C50FE6D281974F6A2C58F9B81 /* secp256k1_swift-umbrella.h */,
+				928A0B28A224DE3561EA9FBB522D04B0 /* secp256k1_swift.debug.xcconfig */,
+				249E56E600FA76A59B26478BDCFB917C /* secp256k1_swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/secp256k1_swift";
+			sourceTree = "<group>";
+		};
+		AF94EC1870B56A8CF0E14A3B39EC08E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEA315B4048A9B49558408DD6721E6B6 /* OpenSSL-Universal.debug.xcconfig */,
+				1470C18D46DF638AB205861180665E16 /* OpenSSL-Universal.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OpenSSL-Universal";
+			sourceTree = "<group>";
+		};
+		B154F2B7387C38C5D792643D810E591A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9821B9504CF05C83079FFC3F1AD86BCE /* Pods_HqWalletSDK.framework */,
+				A327B82DC5D5A82A07FD56CF698530FB /* secp256k1_swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C24443720F8B9955DE00F20E33433A23 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7F617103D00A854EC5C25262BD8B36B /* Pods-HqWalletSDK */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7449A62C53B317BC919B0CBECC4C1E3C /* Pods */,
+				B154F2B7387C38C5D792643D810E591A /* Products */,
+				C24443720F8B9955DE00F20E33433A23 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7F617103D00A854EC5C25262BD8B36B /* Pods-HqWalletSDK */ = {
+			isa = PBXGroup;
+			children = (
+				AA551747BD7A98E5E7416521C48BBC1D /* Pods-HqWalletSDK.modulemap */,
+				12A33C0AF593CEC077CFE0F4318592E8 /* Pods-HqWalletSDK-acknowledgements.markdown */,
+				859ADEFB111233D415B1C421915A7BDA /* Pods-HqWalletSDK-acknowledgements.plist */,
+				CA5D13FFD62BA28E6F0F0FF146C19BBD /* Pods-HqWalletSDK-dummy.m */,
+				C28BECBA7AE1CCFD83CE1B9976917213 /* Pods-HqWalletSDK-frameworks.sh */,
+				E9E5B32F11FFB2CC9F096C06D640A2CD /* Pods-HqWalletSDK-Info.plist */,
+				8FB4CDD1F93B4B51C5908189D8B083E8 /* Pods-HqWalletSDK-umbrella.h */,
+				F2710E19CFFFDB9ABE06166F0075AA96 /* Pods-HqWalletSDK.debug.xcconfig */,
+				401D889F58F775491632F5E2D4696B08 /* Pods-HqWalletSDK.release.xcconfig */,
+			);
+			name = "Pods-HqWalletSDK";
+			path = "Target Support Files/Pods-HqWalletSDK";
+			sourceTree = "<group>";
+		};
+		E08940CDE582A4709D44BA501103373A /* secp256k1_swift */ = {
+			isa = PBXGroup;
+			children = (
+				2AEBC830A26E2799CE278E887F689502 /* basic-config.h */,
+				C40E9622000C57649A5C4CE2FA224D15 /* ecdsa.h */,
+				69216B67372C25AF59FCFA8C6158A4AF /* ecdsa_impl.h */,
+				A3F9014573FA4B8A5760398D07A8C93A /* eckey.h */,
+				54EA2C55A9A2934B880DE865C3320E60 /* eckey_impl.h */,
+				012290D51A59B6777BDC429EAAC85006 /* ecmult.h */,
+				70E91C2BA63815B0565BF0284772F207 /* ecmult_const.h */,
+				11B5C9D41D9C9837CC6DCE59F9008565 /* ecmult_const_impl.h */,
+				192427B43EBF609FFA35A101EE82472C /* ecmult_gen.h */,
+				9E0AF91BE19C1A299158F233EE1565BB /* ecmult_gen_impl.h */,
+				2DE787D052C79534D6FE0EAB0D573760 /* ecmult_impl.h */,
+				822BE7BAF9785CC8F7DD3518D6C45650 /* field.h */,
+				1258CA6CA5FBAADF118CF8138050D460 /* field_10x26.h */,
+				378E422D459FC397BA47EFCCB1DFAC15 /* field_10x26_impl.h */,
+				934766384A384D4413193CCED5B050EE /* field_5x52.h */,
+				D9BCE97030A47D43A1DEFD751E29596F /* field_5x52_asm_impl.h */,
+				4897E8235E7C8CBC64308B500B2BE424 /* field_5x52_impl.h */,
+				90D25FA443925F328C4E25AE15AC58A1 /* field_5x52_int128_impl.h */,
+				6C6AE8E2F1E00CEE995639C986FAECCA /* field_impl.h */,
+				6875A029B2D469D7A54B046D2D036174 /* group.h */,
+				9FBB3599E79F6818950A5CCF81B3F3BB /* group_impl.h */,
+				6DABCDCED7183C7349D4CAD957B03A79 /* hash.h */,
+				BAA6CEC7F628E17B97DA27938D3CE3BC /* hash_impl.h */,
+				88F888BA3CB8415ECCB5190BA62D3974 /* lax_der_parsing.c */,
+				4898E402F1AB27CEC12265D837DF6475 /* lax_der_parsing.h */,
+				700E365956C4A95B631B32A0209F21A3 /* lax_der_privatekey_parsing.c */,
+				991C068124C59F7675961BED21B23628 /* lax_der_privatekey_parsing.h */,
+				02105AF01BF063CB158409C45B1112E1 /* libsecp256k1-config.h */,
+				2C0D1A28733EF42A7CAB61843140F469 /* main_impl.h */,
+				16C6BE0751C3FD578DF6B14DAC3359F5 /* main_impl.h */,
+				503D88B52B0E9D3CD038B69537770952 /* num.h */,
+				3E951006B9013CFCD6C0FEF32701B0C0 /* num_gmp.h */,
+				E7AC45EDE0249FF3D575A51807126989 /* num_gmp_impl.h */,
+				BBD1F3F0726FDDD4114CF6C9B1CA259E /* num_impl.h */,
+				43006C9E2637EAC9AECCE2C7E78A1BB5 /* scalar.h */,
+				F7DBE068A5DDDB85F08CC840E8392F04 /* scalar_4x64.h */,
+				9831E076F7D7DCD5BA4C7CD7A432533C /* scalar_4x64_impl.h */,
+				E01EB4E3A4D045E9A220D6447AC87860 /* scalar_8x32.h */,
+				904A14004471B76DA4BDFF5C2312F4A2 /* scalar_8x32_impl.h */,
+				2857791AB56AA4AE602231FAD48D9903 /* scalar_impl.h */,
+				3E623DEDD80DA459784DCCFB3AC5B47B /* scalar_low.h */,
+				FAEDE726CE3876805595EFBFAAA3443E /* scalar_low_impl.h */,
+				7FC47971C5D8C68DAEAA0FD23CE01D52 /* scratch.h */,
+				9CAAB93C4FF1ABDB4F7436EABBCF92B0 /* scratch_impl.h */,
+				0CFF907CAC2D7656EFC578B98444176B /* secp256k1.c */,
+				FC63CCE9048048C158D3BD344DA1FAA0 /* secp256k1.h */,
+				965032922CA236494ACC3C3BFDFB21BB /* secp256k1.swift */,
+				64CE0A94B40C0802DA982A4763EF7731 /* secp256k1_ecdh.h */,
+				E0D2C45804C3046220A4759C77E831C3 /* secp256k1_recovery.h */,
+				8201AFD219A1BFBDFB1EF92CD85D4333 /* util.h */,
+				AD06B6C274D9FF8B67F062CD62444EB4 /* Support Files */,
+			);
+			name = secp256k1_swift;
+			path = secp256k1_swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		303859DB5B84A0CC9948B9861552E794 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FC6270278525A0208687D2FBBB0666 /* basic-config.h in Headers */,
+				8A9AD8CFA8F0A632BFB897D6AC6D1971 /* ecdsa.h in Headers */,
+				2A7721DCCCEECE229033DB9257559A46 /* ecdsa_impl.h in Headers */,
+				5D2872D3844A73D6A40B5323FD11CEB9 /* eckey.h in Headers */,
+				7103572417952B9885FC865050F6710B /* eckey_impl.h in Headers */,
+				6C9FA4F32A2F936BD964A6FF1DF91068 /* ecmult.h in Headers */,
+				DAD7D5E537A3EA3BEC74B4C5237F2E99 /* ecmult_const.h in Headers */,
+				CA19FFCCCEF9590E1C69DFC7726C3CAF /* ecmult_const_impl.h in Headers */,
+				5523A5ABC6E3884EA3785105A64EC2D4 /* ecmult_gen.h in Headers */,
+				53AB58EDE3D1CB04DA14D6C091B40474 /* ecmult_gen_impl.h in Headers */,
+				203EAC70003BD2AE969785D21C095889 /* ecmult_impl.h in Headers */,
+				CED70463E3760BDB73F956D8B33BC0FD /* field.h in Headers */,
+				CD0AF051BC011CA36E7891C6CB0D9E79 /* field_10x26.h in Headers */,
+				F61092BD1632F8E80CA293B600951B4C /* field_10x26_impl.h in Headers */,
+				4267E62741D0CFDFA111D5680F51F382 /* field_5x52.h in Headers */,
+				3ACE3D5FE8D376FF704301895ABC5EB6 /* field_5x52_asm_impl.h in Headers */,
+				677E54443C763C89F687F87346808750 /* field_5x52_impl.h in Headers */,
+				137E9B12B7F85C15F7349D81DDA64EC7 /* field_5x52_int128_impl.h in Headers */,
+				FE2C4C5FB5838C6BAD13BE32F3287B81 /* field_impl.h in Headers */,
+				572D56C08931F284645FE8EBD5DC7B69 /* group.h in Headers */,
+				E79DD158D37677CF9AB2DA193732CC30 /* group_impl.h in Headers */,
+				FD6CD2AA65C97C73965D8DC1C95473FE /* hash.h in Headers */,
+				75561103BECF65F6C1C02B3018BDA467 /* hash_impl.h in Headers */,
+				5678E8722975813D15982650C3AC1A13 /* lax_der_parsing.h in Headers */,
+				16CDB8F03893689280F092C3F12791DE /* lax_der_privatekey_parsing.h in Headers */,
+				37C457FB9FE839C32EF4BA882EEFD4C9 /* libsecp256k1-config.h in Headers */,
+				68F7D203750327002F398C0152A74F06 /* main_impl.h in Headers */,
+				AB39D2BAB5F12D3D0C964C944F0AC6F2 /* main_impl.h in Headers */,
+				C9A6FB634C9125693A7881A358DDADAF /* num.h in Headers */,
+				3E799B37C6BC20578C6060B32D13DE0F /* num_gmp.h in Headers */,
+				76B2309841C2DA59DCEB88912EBF680A /* num_gmp_impl.h in Headers */,
+				3E4B0D104B3D588C2BE5695B38BAE793 /* num_impl.h in Headers */,
+				7E85D5B5C7C663AF129335EB282013F4 /* scalar.h in Headers */,
+				AA13BA37D1BA0B43FDC19850865E6599 /* scalar_4x64.h in Headers */,
+				8E57956261BAC74C27BDAD903BB58681 /* scalar_4x64_impl.h in Headers */,
+				70679855482F759CB4F6E36374AFF5AB /* scalar_8x32.h in Headers */,
+				619E14C9538BD63D9DAB287A598C9A74 /* scalar_8x32_impl.h in Headers */,
+				15A0F199193979A0F4C24514ED3F09DF /* scalar_impl.h in Headers */,
+				5C32C6F85029D623DC00C94AAF14DF2A /* scalar_low.h in Headers */,
+				62084C31C7D04B68FF7FB670BD3E68D6 /* scalar_low_impl.h in Headers */,
+				B25BB09EA7B8EBA82150F092CCAEB1EE /* scratch.h in Headers */,
+				4FD0B28B7E7E754A259AF1FD8512FF5E /* scratch_impl.h in Headers */,
+				8BAA227246DF3F9BBE10BA9F5F0853E8 /* secp256k1.h in Headers */,
+				BDC1F25CFCD719E6DF373F09849B8061 /* secp256k1_ecdh.h in Headers */,
+				A7C3789C23A94A710ABBEB9A070FAD20 /* secp256k1_recovery.h in Headers */,
+				EDE0703A9910F54964174103C5C1FBE4 /* secp256k1_swift-umbrella.h in Headers */,
+				A3EE9EEA74AEB3A2C840671BA9559EB3 /* util.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA6FF534ABD6B7556D49AE0632487D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567F839887CD7F69E141F4CE51FC39D0 /* Pods-HqWalletSDK-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		674FDFDEB40835621D833AF8EBA35016 /* secp256k1_swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB640003D676FB1DC566A59E9D03990 /* Build configuration list for PBXNativeTarget "secp256k1_swift" */;
+			buildPhases = (
+				303859DB5B84A0CC9948B9861552E794 /* Headers */,
+				9447A6818B4529B5FCB4E890BC75EDA1 /* Sources */,
+				7F38D65ED7CBF2F2B912FFAACA28DA3E /* Frameworks */,
+				95A29FCE92277B53BAB158F8A959773A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = secp256k1_swift;
+			productName = secp256k1_swift;
+			productReference = A327B82DC5D5A82A07FD56CF698530FB /* secp256k1_swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A20B9DB413260D3F391B20B8E0548C4D /* Pods-HqWalletSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B83E04EE2143B22DA93B3ECD79EFBE1D /* Build configuration list for PBXNativeTarget "Pods-HqWalletSDK" */;
+			buildPhases = (
+				CBA6FF534ABD6B7556D49AE0632487D8 /* Headers */,
+				261A6B838C8B3E152AABDFFFC6AEA550 /* Sources */,
+				DA9444CCEBDE0F414A36AA720AA7D519 /* Frameworks */,
+				379FFA330CC9E2631B8886D7DD40FD06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F238960D8D0E4B40764B836A1758DD6 /* PBXTargetDependency */,
+				9B732BF7E0DECEB0F47D4DB3FA5EDCEA /* PBXTargetDependency */,
+			);
+			name = "Pods-HqWalletSDK";
+			productName = "Pods-HqWalletSDK";
+			productReference = 9821B9504CF05C83079FFC3F1AD86BCE /* Pods_HqWalletSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B154F2B7387C38C5D792643D810E591A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */,
+				A20B9DB413260D3F391B20B8E0548C4D /* Pods-HqWalletSDK */,
+				674FDFDEB40835621D833AF8EBA35016 /* secp256k1_swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		379FFA330CC9E2631B8886D7DD40FD06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A29FCE92277B53BAB158F8A959773A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		261A6B838C8B3E152AABDFFFC6AEA550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CA95BCB1F0A2FCB62EAB8D3AB4453E /* Pods-HqWalletSDK-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9447A6818B4529B5FCB4E890BC75EDA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70E0C9A46B419F829DB05DA2F0EC536 /* lax_der_parsing.c in Sources */,
+				91B94DC0C91CC02C7A46E3032FD2AB54 /* lax_der_privatekey_parsing.c in Sources */,
+				A98B2E66E68CD4051BF4E85BD8486B23 /* secp256k1.c in Sources */,
+				11D250F035F0982DFE0FEDB2ECC62B8C /* secp256k1.swift in Sources */,
+				F122DA37CEEE1E1353FE2D9332F8587B /* secp256k1_swift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F238960D8D0E4B40764B836A1758DD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "OpenSSL-Universal";
+			target = B9ED5194E665042005069EF06C82A050 /* OpenSSL-Universal */;
+			targetProxy = 21894C5BB06390EB667BE48047570342 /* PBXContainerItemProxy */;
+		};
+		9B732BF7E0DECEB0F47D4DB3FA5EDCEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = secp256k1_swift;
+			target = 674FDFDEB40835621D833AF8EBA35016 /* secp256k1_swift */;
+			targetProxy = D47D77519FB88550CE24F5EE7759F4C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2F192E6730D381552E5A6BEA795F78E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 401D889F58F775491632F5E2D4696B08 /* Pods-HqWalletSDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HqWalletSDK/Pods-HqWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HqWalletSDK/Pods-HqWalletSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		772FE1EF6B0E2743ED4A5A64A61DFC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2710E19CFFFDB9ABE06166F0075AA96 /* Pods-HqWalletSDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HqWalletSDK/Pods-HqWalletSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HqWalletSDK/Pods-HqWalletSDK.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7FFDA83E49D8C04B93995625E6D8D26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEA315B4048A9B49558408DD6721E6B6 /* OpenSSL-Universal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B55B7B2438E4D6BBB2ABF585E651E088 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928A0B28A224DE3561EA9FBB522D04B0 /* secp256k1_swift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/secp256k1_swift/secp256k1_swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/secp256k1_swift/secp256k1_swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/secp256k1_swift/secp256k1_swift.modulemap";
+				PRODUCT_MODULE_NAME = secp256k1_swift;
+				PRODUCT_NAME = secp256k1_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C1B9DB4410490C491AB2DD004A4A5558 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 249E56E600FA76A59B26478BDCFB917C /* secp256k1_swift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/secp256k1_swift/secp256k1_swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/secp256k1_swift/secp256k1_swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/secp256k1_swift/secp256k1_swift.modulemap";
+				PRODUCT_MODULE_NAME = secp256k1_swift;
+				PRODUCT_NAME = secp256k1_swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA1C3F1BDB3AEF68145669451B691495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1470C18D46DF638AB205861180665E16 /* OpenSSL-Universal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		741581A7361AF4537A921DAD19E3B1ED /* Build configuration list for PBXAggregateTarget "OpenSSL-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FFDA83E49D8C04B93995625E6D8D26 /* Debug */,
+				FA1C3F1BDB3AEF68145669451B691495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B83E04EE2143B22DA93B3ECD79EFBE1D /* Build configuration list for PBXNativeTarget "Pods-HqWalletSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				772FE1EF6B0E2743ED4A5A64A61DFC2C /* Debug */,
+				2F192E6730D381552E5A6BEA795F78E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB640003D676FB1DC566A59E9D03990 /* Build configuration list for PBXNativeTarget "secp256k1_swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55B7B2438E4D6BBB2ABF585E651E088 /* Debug */,
+				C1B9DB4410490C491AB2DD004A4A5558 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

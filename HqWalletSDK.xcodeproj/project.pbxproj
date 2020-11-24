@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333DDF822561497500FF4D49 /* sha3.c in Sources */ = {isa = PBXBuildFile; fileRef = 333DDF7F2561497500FF4D49 /* sha3.c */; };
+		33730DC6255D0F5800AA3E30 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33730DC5255D0F5800AA3E30 /* AppDelegate.mm */; };
+		33730DC9255D0F5800AA3E30 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33730DC8255D0F5800AA3E30 /* SceneDelegate.m */; };
+		33730DCC255D0F5800AA3E30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33730DCB255D0F5800AA3E30 /* ViewController.m */; };
+		33730DCF255D0F5800AA3E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33730DCD255D0F5800AA3E30 /* Main.storyboard */; };
+		33730DD1255D0F5900AA3E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33730DD0255D0F5900AA3E30 /* Assets.xcassets */; };
+		33730DD4255D0F5900AA3E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33730DD2255D0F5900AA3E30 /* LaunchScreen.storyboard */; };
+		33730DD7255D0F5900AA3E30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33730DD6255D0F5900AA3E30 /* main.m */; };
+		33730DE5255D147A00AA3E30 /* NSData+HqHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 33730DE4255D147A00AA3E30 /* NSData+HqHash.m */; };
+		33730DEA255D149400AA3E30 /* NSString+HqString.m in Sources */ = {isa = PBXBuildFile; fileRef = 33730DE9255D149400AA3E30 /* NSString+HqString.m */; };
+		33730DEF255D17D200AA3E30 /* HqWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 33730DEE255D17D200AA3E30 /* HqWallet.m */; };
+		33CDA06525667B400016C931 /* HqHDNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CDA06425667B400016C931 /* HqHDNode.m */; };
+		33CDA09F25691AD50016C931 /* HqMyUitl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDA09D25691AD50016C931 /* HqMyUitl.cpp */; };
+		33CDA0A725691DE90016C931 /* CRIPEMD160.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDA0A525691DE90016C931 /* CRIPEMD160.cpp */; };
+		33CDA0C4256BC3980016C931 /* BIP39ZhCNWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33CDA0C1256BC3980016C931 /* BIP39ZhCNWords.plist */; };
+		33CDA0C5256BC3980016C931 /* BIP39EnglishWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33CDA0C2256BC3980016C931 /* BIP39EnglishWords.plist */; };
+		33CDA0C6256BC3980016C931 /* BIP39ZhTWWords.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33CDA0C3256BC3980016C931 /* BIP39ZhTWWords.plist */; };
+		33CDA0CB256BC61E0016C931 /* HqBIP39.m in Sources */ = {isa = PBXBuildFile; fileRef = 33CDA0CA256BC61E0016C931 /* HqBIP39.m */; };
+		A1531AE98D8377BBF0D752FA /* Pods_HqWalletSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91BF0C449F2D8068A1FDCEB7 /* Pods_HqWalletSDK.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		333DDF7E2561497500FF4D49 /* sha3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha3.h; sourceTree = "<group>"; };
+		333DDF7F2561497500FF4D49 /* sha3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sha3.c; sourceTree = "<group>"; };
+		33730DC1255D0F5800AA3E30 /* HqWalletSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HqWalletSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33730DC4255D0F5800AA3E30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33730DC5255D0F5800AA3E30 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		33730DC7255D0F5800AA3E30 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		33730DC8255D0F5800AA3E30 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		33730DCA255D0F5800AA3E30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		33730DCB255D0F5800AA3E30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		33730DCE255D0F5800AA3E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33730DD0255D0F5900AA3E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33730DD3255D0F5900AA3E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33730DD5255D0F5900AA3E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33730DD6255D0F5900AA3E30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33730DE3255D147A00AA3E30 /* NSData+HqHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+HqHash.h"; sourceTree = "<group>"; };
+		33730DE4255D147A00AA3E30 /* NSData+HqHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+HqHash.m"; sourceTree = "<group>"; };
+		33730DE8255D149400AA3E30 /* NSString+HqString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HqString.h"; sourceTree = "<group>"; };
+		33730DE9255D149400AA3E30 /* NSString+HqString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HqString.m"; sourceTree = "<group>"; };
+		33730DED255D17D200AA3E30 /* HqWallet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HqWallet.h; sourceTree = "<group>"; };
+		33730DEE255D17D200AA3E30 /* HqWallet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HqWallet.m; sourceTree = "<group>"; };
+		33CDA06325667B400016C931 /* HqHDNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HqHDNode.h; sourceTree = "<group>"; };
+		33CDA06425667B400016C931 /* HqHDNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HqHDNode.m; sourceTree = "<group>"; };
+		33CDA09D25691AD50016C931 /* HqMyUitl.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HqMyUitl.cpp; sourceTree = "<group>"; };
+		33CDA09E25691AD50016C931 /* HqMyUitl.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HqMyUitl.hpp; sourceTree = "<group>"; };
+		33CDA0A225691D060016C931 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		33CDA0A525691DE90016C931 /* CRIPEMD160.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CRIPEMD160.cpp; sourceTree = "<group>"; };
+		33CDA0A625691DE90016C931 /* CRIPEMD160.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CRIPEMD160.hpp; sourceTree = "<group>"; };
+		33CDA0C1256BC3980016C931 /* BIP39ZhCNWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39ZhCNWords.plist; sourceTree = "<group>"; };
+		33CDA0C2256BC3980016C931 /* BIP39EnglishWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39EnglishWords.plist; sourceTree = "<group>"; };
+		33CDA0C3256BC3980016C931 /* BIP39ZhTWWords.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BIP39ZhTWWords.plist; sourceTree = "<group>"; };
+		33CDA0C9256BC61E0016C931 /* HqBIP39.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HqBIP39.h; sourceTree = "<group>"; };
+		33CDA0CA256BC61E0016C931 /* HqBIP39.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HqBIP39.m; sourceTree = "<group>"; };
+		5D915E0BA9B1486E9F2E71F6 /* Pods-HqWalletSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HqWalletSDK.debug.xcconfig"; path = "Target Support Files/Pods-HqWalletSDK/Pods-HqWalletSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		91BF0C449F2D8068A1FDCEB7 /* Pods_HqWalletSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HqWalletSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF7A383D9BC7ECF35ABE81A2 /* Pods-HqWalletSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HqWalletSDK.release.xcconfig"; path = "Target Support Files/Pods-HqWalletSDK/Pods-HqWalletSDK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33730DBE255D0F5800AA3E30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1531AE98D8377BBF0D752FA /* Pods_HqWalletSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333DDF6D256115BA00FF4D49 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				33CDA0A525691DE90016C931 /* CRIPEMD160.cpp */,
+				33CDA0A625691DE90016C931 /* CRIPEMD160.hpp */,
+				33CD9F7B256224650016C931 /* sha3 */,
+				33CDA09D25691AD50016C931 /* HqMyUitl.cpp */,
+				33CDA09E25691AD50016C931 /* HqMyUitl.hpp */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		33730DB8255D0F5800AA3E30 = {
+			isa = PBXGroup;
+			children = (
+				33730DC3255D0F5800AA3E30 /* HqWalletSDK */,
+				33730DC2255D0F5800AA3E30 /* Products */,
+				7BF5E4DD82496B56A10D991C /* Pods */,
+				A984BC496C0DBC6D5175D721 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33730DC2255D0F5800AA3E30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33730DC1255D0F5800AA3E30 /* HqWalletSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33730DC3255D0F5800AA3E30 /* HqWalletSDK */ = {
+			isa = PBXGroup;
+			children = (
+				333DDF6D256115BA00FF4D49 /* libs */,
+				33730DEC255D17C000AA3E30 /* HqWallet */,
+				33730DE2255D143E00AA3E30 /* Utils */,
+				33730DC4255D0F5800AA3E30 /* AppDelegate.h */,
+				33730DC5255D0F5800AA3E30 /* AppDelegate.mm */,
+				33730DC7255D0F5800AA3E30 /* SceneDelegate.h */,
+				33730DC8255D0F5800AA3E30 /* SceneDelegate.m */,
+				33730DCA255D0F5800AA3E30 /* ViewController.h */,
+				33730DCB255D0F5800AA3E30 /* ViewController.m */,
+				33730DCD255D0F5800AA3E30 /* Main.storyboard */,
+				33730DD0255D0F5900AA3E30 /* Assets.xcassets */,
+				33730DD2255D0F5900AA3E30 /* LaunchScreen.storyboard */,
+				33730DD5255D0F5900AA3E30 /* Info.plist */,
+				33730DD6255D0F5900AA3E30 /* main.m */,
+			);
+			path = HqWalletSDK;
+			sourceTree = "<group>";
+		};
+		33730DE2255D143E00AA3E30 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				33730DE3255D147A00AA3E30 /* NSData+HqHash.h */,
+				33730DE4255D147A00AA3E30 /* NSData+HqHash.m */,
+				33730DE8255D149400AA3E30 /* NSString+HqString.h */,
+				33730DE9255D149400AA3E30 /* NSString+HqString.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		33730DEC255D17C000AA3E30 /* HqWallet */ = {
+			isa = PBXGroup;
+			children = (
+				33CDA0C8256BC6060016C931 /* BIP39 */,
+				33CDA0C0256BC3980016C931 /* BIP39Words */,
+				33730DED255D17D200AA3E30 /* HqWallet.h */,
+				33730DEE255D17D200AA3E30 /* HqWallet.m */,
+				33CDA06325667B400016C931 /* HqHDNode.h */,
+				33CDA06425667B400016C931 /* HqHDNode.m */,
+			);
+			path = HqWallet;
+			sourceTree = "<group>";
+		};
+		33CD9F7B256224650016C931 /* sha3 */ = {
+			isa = PBXGroup;
+			children = (
+				333DDF7F2561497500FF4D49 /* sha3.c */,
+				333DDF7E2561497500FF4D49 /* sha3.h */,
+			);
+			path = sha3;
+			sourceTree = "<group>";
+		};
+		33CDA0C0256BC3980016C931 /* BIP39Words */ = {
+			isa = PBXGroup;
+			children = (
+				33CDA0C1256BC3980016C931 /* BIP39ZhCNWords.plist */,
+				33CDA0C2256BC3980016C931 /* BIP39EnglishWords.plist */,
+				33CDA0C3256BC3980016C931 /* BIP39ZhTWWords.plist */,
+			);
+			path = BIP39Words;
+			sourceTree = "<group>";
+		};
+		33CDA0C8256BC6060016C931 /* BIP39 */ = {
+			isa = PBXGroup;
+			children = (
+				33CDA0C9256BC61E0016C931 /* HqBIP39.h */,
+				33CDA0CA256BC61E0016C931 /* HqBIP39.m */,
+			);
+			path = BIP39;
+			sourceTree = "<group>";
+		};
+		7BF5E4DD82496B56A10D991C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D915E0BA9B1486E9F2E71F6 /* Pods-HqWalletSDK.debug.xcconfig */,
+				FF7A383D9BC7ECF35ABE81A2 /* Pods-HqWalletSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A984BC496C0DBC6D5175D721 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33CDA0A225691D060016C931 /* libc++.tbd */,
+				91BF0C449F2D8068A1FDCEB7 /* Pods_HqWalletSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33730DC0255D0F5800AA3E30 /* HqWalletSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33730DDA255D0F5900AA3E30 /* Build configuration list for PBXNativeTarget "HqWalletSDK" */;
+			buildPhases = (
+				2CD9A477D973A37ACC638D01 /* [CP] Check Pods Manifest.lock */,
+				33730DBD255D0F5800AA3E30 /* Sources */,
+				33730DBE255D0F5800AA3E30 /* Frameworks */,
+				33730DBF255D0F5800AA3E30 /* Resources */,
+				D00AA1C57182AFB9C7290962 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HqWalletSDK;
+			productName = HqWalletSDK;
+			productReference = 33730DC1255D0F5800AA3E30 /* HqWalletSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33730DB9255D0F5800AA3E30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					33730DC0255D0F5800AA3E30 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = 33730DBC255D0F5800AA3E30 /* Build configuration list for PBXProject "HqWalletSDK" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33730DB8255D0F5800AA3E30;
+			productRefGroup = 33730DC2255D0F5800AA3E30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33730DC0255D0F5800AA3E30 /* HqWalletSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33730DBF255D0F5800AA3E30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33730DD4255D0F5900AA3E30 /* LaunchScreen.storyboard in Resources */,
+				33CDA0C6256BC3980016C931 /* BIP39ZhTWWords.plist in Resources */,
+				33730DD1255D0F5900AA3E30 /* Assets.xcassets in Resources */,
+				33730DCF255D0F5800AA3E30 /* Main.storyboard in Resources */,
+				33CDA0C5256BC3980016C931 /* BIP39EnglishWords.plist in Resources */,
+				33CDA0C4256BC3980016C931 /* BIP39ZhCNWords.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CD9A477D973A37ACC638D01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HqWalletSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D00AA1C57182AFB9C7290962 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HqWalletSDK/Pods-HqWalletSDK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HqWalletSDK/Pods-HqWalletSDK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HqWalletSDK/Pods-HqWalletSDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33730DBD255D0F5800AA3E30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33730DCC255D0F5800AA3E30 /* ViewController.m in Sources */,
+				33730DEA255D149400AA3E30 /* NSString+HqString.m in Sources */,
+				33CDA09F25691AD50016C931 /* HqMyUitl.cpp in Sources */,
+				33730DC6255D0F5800AA3E30 /* AppDelegate.mm in Sources */,
+				33730DEF255D17D200AA3E30 /* HqWallet.m in Sources */,
+				33CDA0A725691DE90016C931 /* CRIPEMD160.cpp in Sources */,
+				33730DE5255D147A00AA3E30 /* NSData+HqHash.m in Sources */,
+				33730DD7255D0F5900AA3E30 /* main.m in Sources */,
+				333DDF822561497500FF4D49 /* sha3.c in Sources */,
+				33CDA0CB256BC61E0016C931 /* HqBIP39.m in Sources */,
+				33730DC9255D0F5800AA3E30 /* SceneDelegate.m in Sources */,
+				33CDA06525667B400016C931 /* HqHDNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		33730DCD255D0F5800AA3E30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33730DCE255D0F5800AA3E30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33730DD2255D0F5900AA3E30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33730DD3255D0F5900AA3E30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33730DD8255D0F5900AA3E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33730DD9255D0F5900AA3E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33730DDB255D0F5900AA3E30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D915E0BA9B1486E9F2E71F6 /* Pods-HqWalletSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9F6VFYR26;
+				INFOPLIST_FILE = HqWalletSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhq.com.HqWalletSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33730DDC255D0F5900AA3E30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7A383D9BC7ECF35ABE81A2 /* Pods-HqWalletSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9F6VFYR26;
+				INFOPLIST_FILE = HqWalletSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhq.com.HqWalletSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33730DBC255D0F5800AA3E30 /* Build configuration list for PBXProject "HqWalletSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33730DD8255D0F5900AA3E30 /* Debug */,
+				33730DD9255D0F5900AA3E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33730DDA255D0F5900AA3E30 /* Build configuration list for PBXNativeTarget "HqWalletSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33730DDB255D0F5900AA3E30 /* Debug */,
+				33730DDC255D0F5900AA3E30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33730DB9255D0F5800AA3E30 /* Project object */;
+}

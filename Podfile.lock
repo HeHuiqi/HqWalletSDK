@@ -1,0 +1,22 @@
+PODS:
+  - OpenSSL-Universal (1.0.2.20):
+    - OpenSSL-Universal/Static (= 1.0.2.20)
+  - OpenSSL-Universal/Static (1.0.2.20)
+  - secp256k1_swift (1.0.3)
+
+DEPENDENCIES:
+  - OpenSSL-Universal
+  - secp256k1_swift (~> 1.0.0)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - OpenSSL-Universal
+    - secp256k1_swift
+
+SPEC CHECKSUMS:
+  OpenSSL-Universal: ff34003318d5e1163e9529b08470708e389ffcdd
+  secp256k1_swift: 4fc5c4b2d2c6d21ee8ccb868cdc92da12f38bed9
+
+PODFILE CHECKSUM: 6e7123411a09681aee857d75a815a2b1fee65dbc
+
+COCOAPODS: 1.9.3
